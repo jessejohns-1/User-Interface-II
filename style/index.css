@@ -1,1 +1,137 @@
 /* Add CSS styling here */
+/* css reset */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+    *{
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+        max-width: 100%;
+        /* border:1px solid grey; */
+    }
+/* Add CSS styling here */
+h1 {
+    padding-top:4%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+}
+h2 {
+    padding-top: 40px;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    max-width: 90%;
+    padding-left: 10%;
+    padding-bottom: 40px;
+}   
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+nav a  {
+    display:flex;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: white;
+    text-decoration: none;
+    color:black;
+    width:150px;
+    height:60px ;
+    padding:1% 1%;
+
+}
+nav a:hover {
+    color:white;
+    background:black;
+}
+.Foodwars {
+    height:50vh;
+        background-image:url('../Wireframe Options/footer_img.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:top;
+
+}
+
+.middle {
+    display:flex;
+    justify-content: flex-start;
+    width:200px; 
+    height: auto;
+    padding-bottom: 4%;
+    }
+
+.middle img {
+        margin:10px;
+        margin-left: 100px;
+    }
+.middle p {
+    margin-left:200px;
+    margin-top:100px;
+}    
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:lightgrey;
+    height: 100px;
+
+}
+button {
+    /* margin-top: 20px; */
+    width: 10%;
+    height:60px
+
+
+}
+ {
+    display: flex;
+    text-align: center;
+}
